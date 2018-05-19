@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7ece3"
+    >
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/phoneField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        android:hint="Phone Number"
+        android:background="@drawable/edittext_bg"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <ProgressBar
+        android:id="@+id/LoadingSign"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:indeterminateOnly="true"
+        android:keepScreenOn="true"
+        />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/codeField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/emailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        android:hint="Email"
+        android:background="@drawable/edittext_bg"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Send" />
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Confirm" />
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Submit" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "820749831754",
+    "firebase_url": "https://gpstrack-5169e.firebaseio.com",
+    "project_id": "gpstrack-5169e",
+    "storage_bucket": "gpstrack-5169e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820749831754:android:d1ea375a68e5c243",
+        "android_client_info": {
+          "package_name": "com.example.vitalyusov.tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820749831754-smu5oh62cb7bv53b3do470ln0i6vkn90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vitalyusov.tracker",
+            "certificate_hash": "069a7882938018ff2253beae634e54405ab79f71"
+          }
+        },
+        {
+          "client_id": "820749831754-o37secl2jfbpi2kj6udh0ipqv4dne504.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCufrJX4LD3rO4HNg2ABASXT8Hk_xA2SGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820749831754-qlqh49k8ffd0aa6b2gaqgl7pdpp4thvf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "SomeCompany.GPSTracker",
+                "app_store_id": "284815942"
+              }
+            },
+            {
+              "client_id": "820749831754-o37secl2jfbpi2kj6udh0ipqv4dne504.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
